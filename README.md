@@ -47,7 +47,7 @@ ORDER BY
     salary_year_avg DESC
 LIMIT 10;
 ```
-![Top paying roles](assets\1_top_paying_jobs.png)
+![Top paying roles](assets/1_top_paying_jobs.png)
 
 
 ## 2. What Skills Are Required for the Top-Paying Jobs?
@@ -85,7 +85,7 @@ INNER JOIN
 ORDER BY
     top_paying_jobs.salary_year_avg DESC;
 ```
-![Skills required for top paying roles](assets\2_skills_for_top_paying_jobs.png)
+![Skills required for top paying roles](assets/2_skills_for_top_paying_jobs.png)
 ## 3. What Are the Most-Demanded Skills?
 
 I counted how frequently each skill appeared in Singapore Data Analyst job postings and ranked the skills by frequency to identify the five most frequently listed skills.
@@ -108,7 +108,7 @@ ORDER BY
     skill_count DESC
 LIMIT 5;
 ```
-![Most demanded sklls](assets\3_most_demanded_skills.png)
+![Most demanded sklls](assets/3_most_demanded_skills.png)
 ## 4. Which Skills Have the Highest Average Salaries?
 
 I calculated the average annual salary associated with each skill across Singapore Data Analyst job postings with disclosed salaries. I then ranked the skills by average salary and selected the top 10.
@@ -132,7 +132,7 @@ ORDER BY
     avg_salary DESC
 LIMIT 10;
 ```
-![Top skills to learn based on salary](assets\4_top_skills_based_on_salary.png)
+![Top skills to learn based on salary](assets/4_top_skills_based_on_salary.png)
 ## 5. What Are the Optimal Skills to Learn?
 
 I combined skill-demand counts and average salary data for Singapore Data Analyst job postings with disclosed salaries. I sorted the results by skill demand first and average salary second to help identify skills worth investigating for my learning plan.
@@ -186,7 +186,7 @@ ORDER BY
     demanded_skills.skill_count DESC,
     avg_salary.avg_salary DESC;
 ```
-![Optimal skills to learn](assets\5_optimal_skills_to_learn.png)
+![Optimal skills to learn](assets/5_optimal_skills_to_learn.png)
 # What I learned
 
 Through this project, I strengthened my SQL skills by working with real-world job posting data. I practiced using joins to combine tables, common table expressions (CTEs) to organize queries, and aggregate functions to analyze skill demand and salary data.

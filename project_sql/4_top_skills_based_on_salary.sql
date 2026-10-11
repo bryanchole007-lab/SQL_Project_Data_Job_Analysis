@@ -10,7 +10,7 @@ INNER JOIN
 WHERE
     jobs.salary_year_avg IS NOT NULL AND
     jobs.job_title_short = 'Data Analyst' AND
-    jobs.job_work_from_home = TRUE
+    jobs.job_country = 'Singapore'
 GROUP BY
     s.skills
 ORDER BY
